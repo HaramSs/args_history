@@ -24,5 +24,5 @@ test = [
 my-history = 'haram_args_history.cli:cmd'
 
 [project.urls]
-Homepage =  https://github.com/HaramSs/args_history.git
-Issues = https://packaging.python.org/en/latest/tutorials/packaging-projects/
+Homepage =  "https://github.com/HaramSs/args_history.git"
+Issues = "https://packaging.python.org/en/latest/tutorials/packaging-projects/"
