@@ -20,10 +20,17 @@ test = [
     "pytest-cov>=5.0.0",
 ]
 
+[tool.pytest.ini_options]
+pythonpath = [
+	".", "src",
+]
+
+
 [tool.pdm.scripts]
 test = "pytest"
 ctest = "pytest --cov"
 stest = "pytest -s"
+giti = " pip install git+https://github.com/HaramSs/args_history.git@0.2.0"
 
 [project.scripts]
 my-history = 'haram_args_history.cli:cmd'
