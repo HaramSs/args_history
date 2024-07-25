@@ -5,7 +5,10 @@ description = "Default template for PDM package"
 authors = [
     {name = "HaramSs", email = "haram8274@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "pandas>=2.2.2",
+    "fastparquet>=2024.5.0",
+]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
