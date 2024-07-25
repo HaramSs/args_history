@@ -1,6 +1,6 @@
 from haram_args_history.cli import hello_msg
 
 def test_hello():
-    m = msg()
+    m = hello_msg()
     assert m == "hello"
 
